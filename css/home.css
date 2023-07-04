@@ -247,7 +247,7 @@ h5 {
   text-decoration: none;
 }
 
-@media screen and (min-width:206px) and (max-width:498px){
+@media screen and (min-width:256px) and (max-width:498px){
  
   .header p{
     font-size: 1.2rem !important;
@@ -260,7 +260,7 @@ h5 {
     font-size: 2rem !important;
   }
  .response{
-    width: 250% !important;
+    width: 210% !important;
   }
   
   .ffac {
