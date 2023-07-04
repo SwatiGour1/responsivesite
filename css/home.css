@@ -247,8 +247,7 @@ h5 {
   text-decoration: none;
 }
 
-
-@media screen and (min-width:256px) and (max-width:498px){
+@media screen and (min-width:206px) and (max-width:498px){
  
   .header p{
     font-size: 1.2rem !important;
@@ -261,7 +260,7 @@ h5 {
     font-size: 2rem !important;
   }
  .response{
-    width: 210% !important;
+    width: 250% !important;
   }
   
   .ffac {
@@ -394,7 +393,7 @@ h5 {
   }
  .container-fluid a {
     font-size: 1.5rem;
-  }
+  } */
   .lr {
     height: 50px;
     padding: 1rem;
@@ -409,4 +408,12 @@ h5 {
   .glrgrp{
     text-align: center;
   }
+}
+ @media screen and (min-width:992px) and (max-width:1290px){
+  .lr{
+   display: none;
+}
+.glrgrp img{
+  margin-left: 0;
+}
 }
