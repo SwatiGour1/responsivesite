@@ -251,17 +251,19 @@ h5 {
 @media screen and (min-width:256px) and (max-width:498px){
  
   .header p{
-    font-size: 1.8rem !important;
+    font-size: 1.2rem !important;
+  }
+  .header img{
+    height: 150px !important;
+    width: 150px !important;
   }
   .container-fluid a {
     font-size: 2rem !important;
   }
  .response{
-    width: 200% !important;
+    width: 210% !important;
   }
-  .flogo{
-    /* margin-left: 00px !important; */
-  }
+  
   .ffac {
     display: flex !important;
     flex-direction: column !important;
