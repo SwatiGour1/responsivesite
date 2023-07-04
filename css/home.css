@@ -266,23 +266,35 @@ h5 {
   
   .ffac {
     display: flex !important;
-    flex-direction: column !important;
-    /* justify-content:space-between; */
-    /* align-items: center; */
+    flex-direction:row !important;
+    justify-content:center !important;
+    align-items: center !important;
+  }
+  .flogo{
+    margin-left:4rem !important;
+    margin-right: 4rem !important;
   }
   .flogo img{
-    width: 200px !important;
-    height: 180px !important;
+    /* width: 200px !important;
+    height: 180px !important; */
+  }
+  #flogo3 {
+    display: none;
   }
   .flogo p{
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
-  #flogo2,#flogo3{
+  /* #flogo2,#flogo3{
     margin-left: 50px !important;
-  }
-  .fabout{
-    font-size: ;
-  }
+  } */
+  .glrgrp{
+    display: flex;
+    flex-direction: column;
+}
+.glrgrp img{
+  width:250px;
+  height: 150px;
+}
 }
 
 @media screen and (max-width:768px) {
