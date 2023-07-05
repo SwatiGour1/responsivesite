@@ -247,7 +247,7 @@ h5 {
   text-decoration: none;
 }
 
-@media screen and (min-width:256px) and (max-width:498px){
+@media screen and (min-width:256px) and (max-width:400px){
  
   .header p{
     font-size: 1.2rem !important;
